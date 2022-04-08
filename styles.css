@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+p, div {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h2 {
+  margin-top: 80px;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('assets/Mountains-1412683.svg');
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #F2EAAD;
+  color: #1C3D1F;
+}
+
+.photos {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.photos img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.dest {
+  border: 1px solid #1C3D1F;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.dest-name {
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+}
+
+.dest ul {
+  margin: 0;
+}
+
+.dest li {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.rsvp-link {
+  margin-bottom: 40px;
+}
